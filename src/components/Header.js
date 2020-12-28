@@ -1,4 +1,5 @@
 import "./Header.css"
+import HeaderOption from "./HeaderOption.js"
 import SearchIcon from "@material-ui/icons/Search"
 
 export default function Header() {
@@ -14,7 +15,10 @@ export default function Header() {
 					<input type='text' />
 				</div>
 			</div>
-			<div className='header__right'></div>
+			<div className='header__right'>
+				<HeaderOption title='Home' />
+				<HeaderOption title='My Network' />
+			</div>
 		</div>
 	)
 }
