@@ -26,6 +26,10 @@ export default function Header() {
 				<HeaderOption Icon={BusinessCenterIcon} title='Jobs' />
 				<HeaderOption Icon={ChatIcon} title='Messaging' />
 				<HeaderOption Icon={NotificationsIcon} title='Notifications' />
+				<HeaderOption
+					avatar='https://media-exp1.licdn.com/dms/image/C4E03AQEnFqUo7PnY2Q/profile-displayphoto-shrink_200_200/0/1608307293424?e=1614816000&v=beta&t=6R5Te2O_UqHB0y3gRLsVj_m51VNVl9BAFZsodmNR-P0'
+					title='me'
+				/>
 			</div>
 		</div>
 	)
