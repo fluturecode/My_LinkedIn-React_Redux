@@ -1,6 +1,7 @@
 import "./App.css"
 import Header from "./components/Header.js"
 import Sidebar from "./components/Sidebar.js"
+import Feed from "./components/Feed"
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 
 			<div className='app__body'>
 				<Sidebar />
+				<Feed />
 			</div>
 		</div>
 	)
