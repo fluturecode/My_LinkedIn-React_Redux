@@ -1,19 +1,32 @@
 import React from "react"
 import "./Post.css"
+import Avatar from "@material-ui/core/Avatar"
+import InputOption from "./InputOption.js"
+import ThumbsUpAltOutLinedIcon from "@material-ui/icons/ThumbUpAltOutlined"
+import ChatOutLinedIcon from "@material-ui/icons/ChatOutlined"
+import ShareOutLinedIcon from "@material-ui/icons/ShareOutlined"
+import SendOutLinedIcon from "@material-ui/icons/SendOutlined"
 
 function Post({ name, description, message, photoUrl }) {
 	return (
 		<div className='post'>
 			<div className='post__header'>
-				{/* <Avatar /> */}
+				<Avatar />
 				<div className='post__info'>
-					<h2>Elizabeth Eidelson</h2>
-					<p>Description</p>
+					<h2>{name}</h2>
+					<p>{description}</p>
 				</div>
 			</div>
 
 			<div className='post__body'>
-				<p>Message goes here</p>
+				<p>{message}</p>
+			</div>
+
+			<div className='post__buttons'>
+				<InputOption Icon={ThumbsUpAltOutLinedIcon} title='Like' color='gray' />
+				<InputOption Icon={ChatOutLinedIcon} title='Comment' color='gray' />
+				<InputOption Icon={ShareOutLinedIcon} title='Share' color='gray' />
+				<InputOption Icon={SendOutLinedIcon} title='Send' color='gray' />
 			</div>
 		</div>
 	)
