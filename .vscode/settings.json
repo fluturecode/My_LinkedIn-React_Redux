@@ -1,4 +1,9 @@
 {
   "eslint.codeActionsOnSave.mode": "problems",
-  "autoimport.absolute": true
+  "autoimport.absolute": true,
+  "emmet.extensionsPath": "",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+},
+"files.trimTrailingWhitespace": true
 }
