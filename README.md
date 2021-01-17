@@ -3,7 +3,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) template.
 
-![Screen Shot 2021-01-13 at 12 26 14 PM](https://user-images.githubusercontent.com/59614789/104487074-a4044580-559a-11eb-8d11-afdd338f7e05.png)
+![Screen Shot 2021-01-16 at 9 58 52 PM](https://user-images.githubusercontent.com/59614789/104829848-1056a180-5846-11eb-982a-efe4e7f01d75.png)
 
 ### `yarn start`
 
