@@ -1,7 +1,7 @@
 
 ### LinkedIn Clone App
 
-The LinkedIn clone web application waas developed with user authentication.
+This web application waas developed with user authentication.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) template.
 
